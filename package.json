@@ -1,0 +1,21 @@
+{
+  "name": "radzenblazortest",
+  "version": "1.0.0",
+  "description": "Test case Page object",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests -s takeOnFails=true",
+    "test:chrome:headless":"testcafe chrome:headless ./tests"
+
+  },
+  "keywords": [
+    "Test",
+    "case"
+  ],
+  "author": "Tarun Mehrotra",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.2.1",
+    "testcafe": "^1.11.0"
+  }
+}
